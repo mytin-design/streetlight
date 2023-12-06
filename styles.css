@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .5s ease;
+}
+
+
+html, body {
+    background: #222;
+}
+
+.oval {
+    height: 3.5pc;
+    width: 8pc;
+    border-radius: 10pc;
+    background: radial-gradient(#fff, #fff, #555, #555);
+}
+
+
+/* why is the position of an element affecting the background of the html */
+
+/* it seems the position of an element interferes with the linear-gradient function */
+
+
+.light1 {
+    position: absolute;
+    top: 104%;
+    left: 10%;
+    z-index: 5;
+}
+
+
+.light2 {
+    position: absolute;
+    top: 102%;
+    left: 46%;
+    z-index: 6;
+}
+
+.light3 {
+    position: absolute;
+    top: 36%;
+    left: 43%;
+    z-index: 7;
+}
+
+.light4 {
+    position: absolute;
+    top: 36%;
+    left: 80%;
+    z-index: 7;
+}
+
+
+.pole {
+    height: 20pc;
+    width: 1pc;
+    background-color: #555;
+    border-radius: .5pc .5pc;
+}
+
+.pole1 {
+    position: absolute;
+    top: 105%;
+    left: 10.5%;
+}
+
+
+.pole2 {
+    position: absolute;
+    top: 105%;
+    left: 53.5%;
+    z-index: 5;
+
+}
+
+
+.pole3 {
+    position: absolute;
+    top: 40%;
+    left: 43.5%;
+    z-index: 5;
+
+}
+
+.pole4 {
+    position: absolute;
+    top: 37%;
+    left: 87.5%;
+    z-index: 5;
+    
+}
+
+
+.road {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    height: 80pc;
+    width: 25pc;
+    background-color: #333;
+    transform: rotate(47deg);
+}
+
+
+.rline {
+    position: absolute;
+    height: 80pc;
+    width: .9pc;
+    background-color: #999;
+    transform: rotate(47deg);
+    z-index: 5;
+}
+.endline1 {
+    top: 8%;
+    left: 35%;
+
+}
+
+
+.endline2 {
+    top: 55%;
+    left: 54%;
+}
+
+.mline {
+    position: absolute;
+    height: 5pc;
+    width: 1pc;
+    background-color: #999;
+    transform: rotate(47deg);
+    z-index: 5;
+}
+
+.mline1 {
+    top: 175%;
+    left: 18%;
+}
+
+.mline2 {
+    top: 150%;
+    left: 30%;
+}
+
+
+.mline3 {
+    top: 125%;
+    left: 43%;
+}
+
+
+.mline4 {
+    top: 100%;
+    left: 55%;
+}
+
+
+.mline5 {
+    top: 75%;
+    left: 67%;
+}
+
